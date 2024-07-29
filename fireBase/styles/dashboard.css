@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+}
+
+header .user-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+header .user-info a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: medium;
+    margin-bottom: 5px;
+   font-size: larger;
+}
+
+header .user-info p {
+font-size: xx-large;
+    color: #ddd;
+    font-size: medium;
+    margin: 0;
+    margin-right: 35px;
+}
+.back{
+
+    width: 100%;
+    background-image: url(../BMW-facebook.jpg);
+    background-size:cover ;
+height: 700px;
+width: 100%
+}
